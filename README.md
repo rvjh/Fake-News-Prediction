@@ -23,10 +23,31 @@
  ## Procedure followed for this experiment:
     
 ### 1. Dataset loading and preprocessing of dataset:
+
       * Importing different libraries like numpy, pandas, sklearn etc.
       * Importing the nltk library and downloading the stopwords.
       * Verifying the null values in the dataset.
-          ** As we have the dataset with huge 20800 records , so deleting the null values will not hamper.
-          ** So, we replacd the null values with empty string.
-      * 
+      
+#### As we have the dataset with huge 20800 records , and only around 1800 records have null values.
+
+#### So, we replacd the null values with empty string.
+
+   ![alt text](src/1.PNG)
+
+#### The records in the text column are very long so computation will take much time, so we will combine the title and author column to do the classification.
+
+   ![alt text](src/2.PNG)
+   
+   ![alt text](src/3.PNG)
+   
+### 2. Stemming 
+    * Stemming is the process of reducing a word to its Root word. example: actor, actress, acting --> act
+    * For this I have used PorterStemmer of nltk library.
+    * Then we created a function so that we can extract the raw words from the data using PorterStemmer which are not in English stopwords.
+    
+   ![alt text](src/4.PNG)
+   
+### 3. TfidfVectorizer
+    * 
+   
  
