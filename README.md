@@ -48,6 +48,29 @@
    ![alt text](src/4.PNG)
    
 ### 3. TfidfVectorizer
-    * 
+    * As the machine only understands the numeric things so to transform text into a meaningful representation of numbers we used TfidfVectorizer.
+    
+   ![alt text](src/5.PNG) 
+   
+    * So these numeric values will be used during training.
+    
+### 4. Trining 
+
+    * For training i separated the dataset using train test split.
+    * Introduced LogisticRegression model.
+    * After the training I evaluated the accuracy scores based on train and test data
+    
+   ![alt text](src/6.PNG)
+   
+    * Then saved the model for future preprocessing.
+    
+### 5. Testing the model
+
+    *  After loading the saved model, I created some test data to see the result.
+   ![alt text](src/7.PNG)
+   
+   
+#### Thanks for visiting!!!
+   
    
  
