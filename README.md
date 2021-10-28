@@ -5,5 +5,4 @@
 ## Problem Statement :
 
   This is a kind of classification problem where we need to identify unreliable news articles.
-  
-  That is if a news if Fake or Real.
+  The goal is to predict that a news is Fake or Real.
