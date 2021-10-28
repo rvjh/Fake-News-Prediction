@@ -54,7 +54,7 @@
    
     * So these numeric values will be used during training.
     
-### 4. Trining 
+### 4. Training 
 
     * For training i separated the dataset using train test split.
     * Introduced LogisticRegression model.
